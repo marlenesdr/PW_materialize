@@ -1,0 +1,119 @@
+@charset "utf-8";
+body{
+	margin: 0;
+	width: 100%;
+	height: auto;
+	padding: 0;
+}
+#intro{
+	background:url(../img/bolivia.jpg) 50% -75px no-repeat fixed;
+	background-size: cover;
+	color: white;
+	height: 2300px;
+	margin: 0 auto;
+	padding: 10px 0 0 0;
+}
+.slide {
+	width: 100%;
+}
+#parallax-container{
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size:cover;
+	min-height: 1000px;
+}
+.menu{
+	font-size: 9px;
+	visibility: visible;
+}
+.menu1{
+	visibility:hidden;
+	height: 0px;
+}
+.redes{
+	visibility: visible;
+}
+.paseos{
+margin: 0 0 0 0;
+padding: 0 0 0 0;
+}
+.fotoautor{
+	width: 70%;
+}
+
+.logosucre{
+  width: 80%;
+  height: auto;
+}
+h2{
+	align-items: baseline;
+}
+.alinear{
+  height: 100px;
+	visibility: visible;
+}
+.alinear1{
+	visibility:hidden;
+	height: 0px;
+}
+.logitos{
+  width: 60px;
+  height: 60px;
+}
+p{
+	margin: 5px 5px 5px 5x;
+	padding: 15px 15px 15px 15px;
+}
+@media (max-width:600px) {
+body{
+	width: 100%;
+}
+#intro{
+	background:url(../img/bolivia.jpg) no-repeat fixed;
+	background-size: cover;
+	color: white;
+	height: 5000px;
+}
+.logosucre{
+  width: 150px;
+  height: auto;
+}
+.alinear1{
+		width: 100%;
+		visibility: visible;
+		background-color: #000000;
+		opacity: 0.4;
+		position: relative;
+		height: auto;
+		overflow: hidden;
+	}
+.alinear{
+	visibility:hidden;
+	height: 0px;
+}
+.encabezado{
+	height: 50px;
+}
+.menu{
+	visibility:hidden;
+	height: 0px;
+}
+.menu1{
+	visibility: visible;
+	position: relative;
+	height: auto;
+	overflow: hidden;
+}
+.redes{
+	visibility: hidden;
+	height: 0px;
+}
+.paseos img{
+	width: 350px;
+	left: 0px;
+	margin: 0px;
+}
+.fotoautor{
+	width: 80px;
+}
+}
